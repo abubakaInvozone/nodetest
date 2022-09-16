@@ -23,6 +23,3 @@ jobs:
       - name: yarn install
         run: |
           yarn install
-      - name: yarn start
-        run: |
-          yarn start
