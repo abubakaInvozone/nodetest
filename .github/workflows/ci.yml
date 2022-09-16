@@ -23,12 +23,6 @@ jobs:
       - name: yarn install
         run: |
           yarn install
-      - name: yarn test
+      - name: yarn start
         run: |
-          yarn test
-        env:
-          CI: true
-
-      - name: yarn build
-        run: |
-          yarn run build --if-present
+          yarn start
